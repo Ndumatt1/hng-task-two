@@ -3,12 +3,14 @@ const bodyParser = require('body-parser');
 const sequelize = require('./config/db')
 const synchronizeModel = require('./config/config');
 const router = require('./routes/router');
+const cors = require('cors');
 
 require('dotenv').config();
 
 const app = express();
 
 app.use(bodyParser.json());
+app.use(cors())
 
 app.use(router);
 

@@ -9,6 +9,9 @@
         "name": "Matthew"
     }
     * Return: The api returns the message 'User created successfully' with the id of the created user.
+    * example with Postman
+
+    ![POST Request](POST request.png)
 
 
 # GET REQUEST
@@ -16,7 +19,9 @@
     * Where :user_id is placeholder for the actual id of the user to get
     * Returns 'User not found!' when a user with id does not exists.
     * Returns the name of the user when user exists.
-    * Example usage
+    * Example usage with Postman
+
+    ![GET Request](GET request.png)
 
 
 # PUT REQUEST
@@ -25,7 +30,9 @@
     * Returns 'User not found!' when a user with id does not exist.
     * The name attribute should have only string value else 'Only attribute with string value are expected!' is returned
     * Updates the user's name in the database and returns 'User updated successfully!'
-    * Example Usage
+    * Example Usage with Postman
+
+    ![Put Request](PUT request.png)
 
 
 # DELETE REQUEST
@@ -34,3 +41,6 @@
     * Returns 'User not found!' when a user with id does not exist.
     * Deletes the user with the associated id in the database
     * Returns 'user deleted successfully' after a successful delete operation
+    * Example usage with Postman
+
+    ![Delete Request](DELETE request.png)

@@ -11,7 +11,7 @@
     * Return: The api returns the message 'User created successfully' with the id of the created user.
     * example with Postman
 
-    ![POST Request](./POST-request.png)
+    ![POST Request](/TEST_FOLDER//POST-request.png)
 
 
 # GET REQUEST
@@ -21,7 +21,7 @@
     * Returns the name of the user when user exists.
     * Example usage with Postman
 
-    ![GET Request](./GET-request.png)
+    ![GET Request](/TEST_FOLDER/GET-request.png)
 
 
 # PUT REQUEST
@@ -32,7 +32,7 @@
     * Updates the user's name in the database and returns 'User updated successfully!'
     * Example Usage with Postman
 
-    ![Put Request](./PUT-request.png)
+    ![Put Request](/TEST_FOLDER//PUT-request.png)
 
 
 # DELETE REQUEST
@@ -43,4 +43,4 @@
     * Returns 'user deleted successfully' after a successful delete operation
     * Example usage with Postman
 
-    ![Delete Request](./DELETE-request.png)
+    ![Delete Request](/TEST_FOLDER/DELETE-request.png)

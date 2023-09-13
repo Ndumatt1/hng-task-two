@@ -67,7 +67,7 @@
     * Else deletes the user with the if and returns 'User deleted successfully!'.
 
     * USAGE:
-        * ENDPOINT => https://hng-task-two-a95v.onrender.com/api/:user_id
+        * ENDPOINT => https://hng-task-two-a95v.onrender.com/api/6
         * METHOD: DELETE
         RESPONSE => {
             "message": "User deleted successfully!"
